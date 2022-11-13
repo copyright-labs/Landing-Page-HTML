@@ -1,0 +1,13 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-link {
+  display: contents;
+}
+.component-image {
+  width: 100px;
+  object-fit: cover;
+  margin-right: 111px;
+  text-decoration: none;
+}

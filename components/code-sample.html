@@ -1,0 +1,64 @@
+<div>
+  <script
+    type="text/javascript"
+    src="https://unpkg.com/dangerous-html@0.1.11/dist/default/lib.umd.js"
+  ></script>
+  <link href="./code-sample.css" rel="stylesheet" />
+  <div class="code-sample-container">
+    <div class="code-sample-container1">
+      <h3><span>Heading</span></h3>
+      <span class="code-sample-text1">
+        <span>
+          In this example we send link to image with fictional character Batman
+          and receive folowing json response:
+        </span>
+        <br />
+        <br />
+      </span>
+      <span><span>Text</span></span>
+      <div class="code-sample-div">
+        <dangerous-html
+          html="<pre>
+<code>
+
+{
+'error':null,
+'copyrights':[
+    {
+        'name':'Stock photography',
+        'found':'VERY_LIKELY',
+        'url':'https://en.wikipedia.org/wiki/Stock_photography',
+        'source':[
+            'https://www.shutterstock.com/search/gullibility',
+            'https://image.shutterstock.com/.jpg'
+        ],
+        'description':'Company owning stock images',
+        'type':'STOCK_IMAGE'
+    }
+    ]
+}
+
+</code>
+</pre>"
+        ></dangerous-html>
+      </div>
+      <span>
+        <br />
+        <span>
+          This response saying that VERY_LIKELY we have FICTIONAL_CHARACTER
+          named &quot;Batman&quot;
+        </span>
+      </span>
+    </div>
+    <a
+      href="https://asset.swarovski.com/images/$size_1450/t_swa103/b_rgb:ffffff,c_scale,dpr_3.0,f_auto,w_500/5492687_png/dc-batman-swarovski-5492687.png"
+      class="code-sample-link"
+    >
+      <img
+        alt="image"
+        src="https://images.unsplash.com/photo-1668217336270-3f955ca98562?ixid=Mnw5MTMyMXwwfDF8YWxsfDE1fHx8fHx8Mnx8MTY2ODI5NDM5NQ&ixlib=rb-4.0.3&h=500"
+        class="code-sample-image"
+      />
+    </a>
+  </div>
+</div>

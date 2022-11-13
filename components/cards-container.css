@@ -1,0 +1,16 @@
+.cards-container-cards-container {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media(max-width: 991px) {
+  .cards-container-cards-container {
+    justify-content: center;
+  }
+}
