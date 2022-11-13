@@ -243,9 +243,9 @@
             </span>
             <div class="home-div">
               <dangerous-html
-                html="<code>
+                html="<center><code>
 https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/url=<span style='color: #0000ff;'><span>LINK_TO_IMAGE</span></span>
-</code>
+</code></center>
 "
               ></dangerous-html>
             </div>
@@ -257,8 +257,17 @@ https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/url=<sp
                 rel="noreferrer noopener"
                 class="home-link10"
               >
-                this sample url
+                this
               </a>
+              <a
+                href="https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/?url=https://static.wikia.nocookie.net/spiderman/images/a/ad/Peter_Parker_%28Earth-616%29_017.png/revision/latest?cb=20210807043502"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link11"
+              >
+                sample
+              </a>
+              <span class="home-text16">url</span>
               <span>and later modify url with image of your choise.</span>
             </span>
           </div>
@@ -266,8 +275,8 @@ https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/url=<sp
         <div class="home-section-separator1"></div>
         <div id="documentation" class="home-documentation">
           <div class="home-heading-container2">
-            <h1 class="home-text17">Documentation</h1>
-            <span class="home-text18">
+            <h1 class="home-text18">Documentation</h1>
+            <span class="home-text19">
               <span>
                 Service will return JSON type response with the following
                 fields:
@@ -277,13 +286,13 @@ https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/url=<sp
             <ul class="list">
               <li class="list-item">
                 <span>
-                  <span class="home-text22">copyrights</span>
+                  <span class="home-text23">copyrights</span>
                   <span>-</span>
                 </span>
                 <span>list of objects describing found copyrighted item</span>
               </li>
               <li class="list-item">
-                <span class="home-text25">copyrights name -</span>
+                <span class="home-text26">copyrights name -</span>
                 <span>
                   <span>
                     name of copyrighted object. For example name of fictional
@@ -293,7 +302,7 @@ https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/url=<sp
                 </span>
               </li>
               <li class="list-item">
-                <span class="home-text29">copyrights found -</span>
+                <span class="home-text30">copyrights found -</span>
                 <span>
                   <span>
                     Describes confidence for found copyrighted object. Possible
@@ -304,7 +313,7 @@ https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/url=<sp
               </li>
               <li class="list-item">
                 <span>
-                  <span class="home-text34">copyrights url</span>
+                  <span class="home-text35">copyrights url</span>
                   <span>
                     - link to resources for more info on copyrighted object
                   </span>
@@ -312,7 +321,7 @@ https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/url=<sp
               </li>
               <li class="list-item">
                 <span>
-                  <span class="home-text37">copyrights source</span>
+                  <span class="home-text38">copyrights source</span>
                   <span>
                     - link to pages which include same or very similar image
                   </span>
@@ -320,20 +329,20 @@ https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/url=<sp
               </li>
               <li class="list-item">
                 <span>
-                  <span class="home-text40">error</span>
+                  <span class="home-text41">error</span>
                   <span>- if any error this field returns error message</span>
                   <br />
                 </span>
               </li>
               <li class="list-item">
                 <span>
-                  <span class="home-text44">copyrights description</span>
+                  <span class="home-text45">copyrights description</span>
                   <span>- defines who owns copyrights</span>
                 </span>
               </li>
               <li class="list-item">
                 <span>
-                  <span class="home-text47">copyrights type</span>
+                  <span class="home-text48">copyrights type</span>
                   <span>
                     - possible values&nbsp;CHARACTER, CREATIVE_WORK, OWNED_BY,
                     STOCK_IMAGE
@@ -348,64 +357,70 @@ https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/url=<sp
         <div class="home-section-separator2"></div>
         <div id="samples" class="home-samples">
           <div class="home-heading-container3">
-            <h1 class="home-text51 Section-Heading">
+            <h1 class="home-text52 Section-Heading">
               Sample request and responses
             </h1>
             <div class="home-container2">
               <div class="home-container3">
-                <h3>Heading</h3>
-                <span class="home-text53">
-                  <span>
-                    In this example we send link to image with fictional
-                    character Batman and receive folowing json response:
+                <div class="home-container4">
+                  <h3>Heading</h3>
+                  <span class="home-text54">
+                    <span>In this</span>
+                    <a
+                      href="https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/?url=https://static.wikia.nocookie.net/spiderman/images/a/ad/Peter_Parker_%28Earth-616%29_017.png/revision/latest?cb=20210807043502"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="home-link12"
+                    >
+                      example
+                    </a>
+                    <span>
+                      we send link to image with fictional character Spider-Man
+                      and receive following json response:
+                    </span>
+                    <br />
+                    <br />
                   </span>
-                  <br />
-                  <br />
-                </span>
-                <div class="home-div1">
-                  <dangerous-html
-                    html="<pre>
+                  <div class="home-div1">
+                    <dangerous-html
+                      html="<pre>
 <code>
-
 {
-'error':null,
-'copyrights':[
-    {
-        'name':'Stock photography',
-        'found':'VERY_LIKELY',
-        'url':'https://en.wikipedia.org/wiki/Stock_photography',
-        'source':[
-            'https://www.shutterstock.com/search/gullibility',
-            'https://image.shutterstock.com/.jpg'
-        ],
-        'description':'Company owning stock images',
-        'type':'STOCK_IMAGE'
-    }
-    ]
+  'copyrights' : [ 
+  {
+    'name' : 'Spider-Man',
+    'found' : 'VERY_LIKELY',
+    'url' : 'https://en.wikipedia.org/wiki/Spider-Man',
+    'description' : 'Comic book character',
+    'type' : 'FICTIONAL_CHARACTER'
+  } 
+  ]
 }
-
 </code>
 </pre>"
-                  ></dangerous-html>
-                </div>
-                <span>
-                  <br />
+                    ></dangerous-html>
+                  </div>
                   <span>
                     This response saying that&nbsp;VERY_LIKELY we have
-                    FICTIONAL_CHARACTER named "Batman"
+                    FICTIONAL_CHARACTER named "Spider-Man"
                   </span>
-                </span>
+                </div>
               </div>
-              <a
-                href="https://asset.swarovski.com/images/$size_1450/t_swa103/b_rgb:ffffff,c_scale,dpr_3.0,f_auto,w_500/5492687_png/dc-batman-swarovski-5492687.png"
-                class="home-link11"
-              >
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1668217336270-3f955ca98562?ixid=Mnw5MTMyMXwwfDF8YWxsfDE1fHx8fHx8Mnx8MTY2ODI5NDM5NQ&amp;ixlib=rb-4.0.3&amp;h=500"
-                  class="home-image3"
-                />
-              </a>
+              <div class="home-container5">
+                <a
+                  href="https://static.wikia.nocookie.net/spiderman/images/a/ad/Peter_Parker_%28Earth-616%29_017.png/revision/latest?cb=20210807043502"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link13"
+                >
+                  <img
+                    alt="image"
+                    src="public/playground_assets/spiderman-600h.webp"
+                    class="home-image3"
+                  />
+                </a>
+                <span class="home-text60">image used in request</span>
+              </div>
             </div>
           </div>
         </div>
@@ -419,7 +434,7 @@ https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/url=<sp
                   d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"
                 ></path>
               </svg>
-              <span class="home-link12">Copyright, 2022</span>
+              <span class="home-link14">Copyright, 2022</span>
             </div>
           </div>
         </div>
