@@ -525,20 +525,6 @@
   align-items: flex-start;
 }
 .home-container3 {
-  flex: 0 0 auto;
-  width: 447px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-}
-.home-container4 {
-  flex: 0 0 auto;
-  width: 447px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-}
-.home-container5 {
   width: 447px;
   height: 400px;
   display: flex;
@@ -558,7 +544,7 @@
   margin-top: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-container6 {
+.home-container4 {
   flex: 0 0 auto;
   width: 182px;
   height: auto;
