@@ -175,13 +175,13 @@
   justify-content: center;
 }
 .home-hero-text {
-  width: 727px;
+  width: 758px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 .home-text {
-  width: 750px;
+  width: 760px;
 }
 .home-text01 {
   color: var(--dl-color-gray-700);
