@@ -387,7 +387,7 @@ https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/url=<sp
                 ><span>{</span><br><span>  "copyrights" : [  </span><br><span>  {</span><br><span>    "name" : "Spider-Man",</span><br><span>    "found" : "VERY_LIKELY",</span><br><span>    "url" : "https://en.wikipedia.org/wiki/Spider-Man",</span><br><span>    "description" : "Comic book character",</span><br><span>    "type" : "FICTIONAL_CHARACTER"</span><br><span>  }  </span><br><span>  ]</span><br><span>}</span></pre>
                 <span>
                   This response saying that&nbsp;VERY_LIKELY we have
-                  FICTIONAL_CHARACTER named "Spider-Man"
+                  FICTIONAL_CHARACTER named "Spider-Man".
                 </span>
               </div>
               <div class="home-container4">
@@ -409,13 +409,13 @@ https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/url=<sp
             <div class="home-container5">
               <div class="home-container6">
                 <h3 class="home-text084">
-                  <span>Detecting fictional character</span>
+                  <span>Detecting movie scene</span>
                   <br />
                 </h3>
                 <span class="home-text087">
                   <span>In this</span>
                   <a
-                    href="https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/?url=https://static.wikia.nocookie.net/spiderman/images/a/ad/Peter_Parker_%28Earth-616%29_017.png/revision/latest?cb=20210807043502"
+                    href="https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/?url=https://i0.wp.com/flickside.com/wp-content/uploads/2022/03/Training-Montage-Rocky-1976.jpg"
                     target="_blank"
                     rel="noreferrer noopener"
                     class="home-link14"
@@ -423,17 +423,17 @@ https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/url=<sp
                     example
                   </a>
                   <span>
-                    we send link to image with fictional character Spider-Man
-                    and receive following json response:
+                    we send link to movie screenshot and receive following json
+                    response:
                   </span>
                   <br />
                 </span>
                 <pre
                   class="home-text091"
-                ><span>{</span><br><span>  "copyrights" : [  </span><br><span>  {</span><br><span>    "name" : "Spider-Man",</span><br><span>    "found" : "VERY_LIKELY",</span><br><span>    "url" : "https://en.wikipedia.org/wiki/Spider-Man",</span><br><span>    "description" : "Comic book character",</span><br><span>    "type" : "FICTIONAL_CHARACTER"</span><br><span>  }  </span><br><span>  ]</span><br><span>}</span></pre>
+                ><span>{</span><br><span>&nbsp; "copyrights" : [</span><br><span>&nbsp; &nbsp;{</span><br><span>&nbsp; &nbsp; &nbsp;"name" : "Rocky",</span><br><span>&nbsp; &nbsp; &nbsp;"found" : "VERY_LIKELY",</span><br><span>&nbsp; &nbsp; &nbsp; "url" : "https://en.wikipedia.org/wiki/Rocky",</span><br><span>&nbsp; &nbsp; &nbsp; "source" : null,</span><br><span>&nbsp; &nbsp; &nbsp; "description" : "1976 film",</span><br><span>&nbsp; &nbsp; &nbsp; "type" : "CREATIVE_WORK"</span><br><span>&nbsp; }&nbsp;  </span><br><span>&nbsp; &nbsp;]</span><br><span>}</span></pre>
                 <span>
                   This response saying that&nbsp;VERY_LIKELY we have
-                  FICTIONAL_CHARACTER named "Spider-Man"
+                  CREATIVE_WORK named "Rocky".
                 </span>
               </div>
               <div class="home-container7">
@@ -445,11 +445,11 @@ https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/url=<sp
                 >
                   <img
                     alt="image"
-                    src="public/playground_assets/spiderman-200w.webp"
+                    src="https://i0.wp.com/flickside.com/wp-content/uploads/2022/03/Training-Montage-Rocky-1976.jpg"
                     class="home-image4"
                   />
                 </a>
-                <span class="home-text114">image used in request</span>
+                <span class="home-text116">image used in request</span>
               </div>
             </div>
           </div>
