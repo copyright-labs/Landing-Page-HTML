@@ -90,7 +90,7 @@
               <button class="home-cta-btn Anchor button">START NOW</button>
             </div>
             <div data-role="MobileMenu" class="home-mobile-menu">
-              <div class="home-container1">
+              <div class="home-container01">
                 <img
                   alt="image"
                   src="https://play.teleporthq.io/static/svg/default-img.svg"
@@ -360,8 +360,8 @@ https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/?url=<s
             <h1 class="home-text052 Section-Heading">
               Sample request and responses
             </h1>
-            <div class="home-container2">
-              <div class="home-container3">
+            <div class="home-container02">
+              <div class="home-container03">
                 <h3 class="home-text053">
                   <span>Detecting fictional character</span>
                   <br />
@@ -390,7 +390,7 @@ https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/?url=<s
                   FICTIONAL_CHARACTER named "Spider-Man".
                 </span>
               </div>
-              <div class="home-container4">
+              <div class="home-container04">
                 <a
                   href="https://static.wikia.nocookie.net/spiderman/images/a/ad/Peter_Parker_%28Earth-616%29_017.png/revision/latest?cb=20210807043502"
                   target="_blank"
@@ -406,8 +406,8 @@ https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/?url=<s
                 <span class="home-text083">image used in request</span>
               </div>
             </div>
-            <div class="home-container5">
-              <div class="home-container6">
+            <div class="home-container05">
+              <div class="home-container06">
                 <h3 class="home-text084">
                   <span>Detecting movie scene</span>
                   <br />
@@ -436,7 +436,7 @@ https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/?url=<s
                   CREATIVE_WORK named "Rocky" which is "1976 film".
                 </span>
               </div>
-              <div class="home-container7">
+              <div class="home-container07">
                 <a
                   href="https://static.wikia.nocookie.net/spiderman/images/a/ad/Peter_Parker_%28Earth-616%29_017.png/revision/latest?cb=20210807043502"
                   target="_blank"
@@ -452,6 +452,53 @@ https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/?url=<s
                 <span class="home-text114">image used in request</span>
               </div>
             </div>
+            <div class="home-container08">
+              <div class="home-container09">
+                <h3 class="home-heading3">
+                  <span>Multiple copyright records</span>
+                  <br />
+                  <br />
+                </h3>
+                <span class="home-text118">
+                  <span>In this</span>
+                  <a
+                    href="https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/?url=https://upload.wikimedia.org/wikipedia/en/2/2c/Batman_%28circa_2020%29.png"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="home-link16"
+                  >
+                    example
+                  </a>
+                  <span>
+                    we send link to movie screenshot and receive following json
+                    response:
+                  </span>
+                  <br />
+                </span>
+                <pre
+                  class="home-text122"
+                ><span>{</span><br><span>&nbsp; &nbsp; "copyrights" : [  </span><br><span>&nbsp; &nbsp; {</span><br><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"name" : "Batman",</span><br><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"found" : "VERY_LIKELY",</span><br><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"url" : "https://en.wikipedia.org/wiki/Batman",</span><br><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"source" : null,</span><br><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"description" : "Comic book character",</span><br><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"type" : "FICTIONAL_CHARACTER"</span><br><span>&nbsp; &nbsp; &nbsp; }, {</span><br><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "name" : "DC Comics",</span><br><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"found" : "LIKELY",</span><br><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"url" : "https://en.wikipedia.org/wiki/DC_Comics",</span><br><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"source" : null,</span><br><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "description" : "Comics company",</span><br><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "type" : "OWNED_BY"</span><br><span>&nbsp; &nbsp; &nbsp; }</span><br><span>&nbsp; &nbsp;],</span><br><span>}</span></pre>
+                <span>
+                  This response saying that this Fictional Character Batman and
+                  this image is owned by DC Comics
+                </span>
+              </div>
+              <div class="home-container10">
+                <a
+                  href="https://static.wikia.nocookie.net/spiderman/images/a/ad/Peter_Parker_%28Earth-616%29_017.png/revision/latest?cb=20210807043502"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link17"
+                >
+                  <img
+                    alt="image"
+                    src="https://upload.wikimedia.org/wikipedia/en/2/2c/Batman_%28circa_2020%29.png"
+                    class="home-image5"
+                  />
+                </a>
+                <span class="home-text161">image used in request</span>
+              </div>
+            </div>
           </div>
         </div>
         <div class="home-section-separator3"></div>
@@ -464,7 +511,7 @@ https://us-central1-copyrights-365317.cloudfunctions.net/Copyright-Check/?url=<s
                   d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"
                 ></path>
               </svg>
-              <span class="home-link16">Copyright, 2022</span>
+              <span class="home-link18">Copyright, 2022</span>
             </div>
           </div>
         </div>
